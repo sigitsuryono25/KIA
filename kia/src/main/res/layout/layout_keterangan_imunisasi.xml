@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Keterangan" />
+
+    <TextView
+        android:id="@+id/keteranganTerakhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Hasil Terakhir" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tanggal"></android.support.design.widget.TextInputEditText>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telah Dilakukan pemerikasaan dengan Hasil..."
+        android:hint="hasil" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Petugas Input:Sigit Suryono| " />
+</LinearLayout>

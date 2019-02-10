@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refreshData"
+        android:icon="@mipmap/ic_refresh"
+        android:title="Muat Ulang Data"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/keteranganImunisasi"
+        android:icon="@mipmap/ic_catatan"
+        android:title="Catatan Imunisasi"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

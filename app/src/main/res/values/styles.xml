@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#4FA7A7</item>
+        <item name="colorPrimary">#89C4C4</item>
+        <item name="colorAccent">#BE3130</item>
+    </style>
+
+
+    <style name="NoActionBarTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="peserta" parent="NoActionBarTheme">
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#FF5252</item>
+    </style>
+
+    <style name="kesehatan_anak" parent="NoActionBarTheme">
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorPrimary">#009688</item>
+        <item name="colorAccent">#4DB6AC</item>
+    </style>
+
+    <style name="kesehatan_ibu_hamil" parent="NoActionBarTheme">
+        <item name="colorPrimaryDark">#FFA000</item>
+        <item name="colorPrimary">#FFC107</item>
+        <item name="colorAccent">#FFD54F</item>
+    </style>
+
+    <style name="status_imunisasi" parent="NoActionBarTheme">
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorAccent">#607D8B</item>
+    </style>
+
+    <style name="status_gizi" parent="NoActionBarTheme">
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorAccent">#FF5722</item>
+    </style>
+
+    <style name="lain_lain" parent="NoActionBarTheme">
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorAccent">#7C4DFF</item>
+    </style>
+
+</resources>

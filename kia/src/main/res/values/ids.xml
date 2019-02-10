@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="rows1" type="id" />
+    <item name="rows2" type="id" />
+    <item name="rows3" type="id" />
+    <item name="rows4" type="id" />
+    <item name="rows5" type="id" />
+    <item name="rows6" type="id" />
+</resources>

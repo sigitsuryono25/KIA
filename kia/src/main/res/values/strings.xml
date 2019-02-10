@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">KIA Admin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tgl_pemeriksaan_bumil">Tanggal Pemeriksaan</string>
+    <string name="keluhan_bumil">Keluhan/Keterangan</string>
+    <string name="nama_ibu">Nama Ibu</string>
+    <string name="tgl_kunjungan_bumil">Tanggal Kunjungan </string>
+    <string name="hpht">Hari Pertama Haid Terakhir (HPHT) </string>
+    <string name="htp">Hari Taksiran Persalinan </string>
+    <string name="lingkar_lengan_atas">Lingkar Lengan Atas </string>
+    <string name="cm">cm</string>
+    <string name="tinggi_badan">Tinggi Badan </string>
+    <string name="kontrasepsi">Penggunaan Kontrasepsi Sblm Kehamilan Ini</string>
+    <string name="penyakit">Riwayat Penyakit yang diderita </string>
+    <string name="alergi">Riwayat Alergi </string>
+    <string name="hamil_ke">Hamil Ke </string>
+    <string name="isi_dengan_angka">isi dengan angka</string>
+    <string name="jml_persalinan">Jml. Persalinan </string>
+    <string name="jml_keguguran">Jml. Keguguran</string>
+    <string name="jml_anak_hidup">Jml Anak Hidup</string>
+    <string name="jml_anak_prematur">Jml Anak Lahir Kurang Bulan </string>
+    <string name="jml_anak_mati">Jml. Anak Mati </string>
+    <string name="anak">Anak</string>
+    <string name="jml_kehamilan">Jml Kehamilan Ini dg. persalinan Terakhir</string>
+    <string name="stts_tt">Status Imunisasi TT </string>
+    <string name="tt_terakhir">Imunisasi TT Terakhir</string>
+    <string name="penolong_persalinan">Penolong Persalinan Terakhir </string>
+    <string name="cara_persalinan">Cara Persalinan Terakhir</string>
+
+    <string name="langkah_3">Langkah 3\nIsi Data Anak</string>
+    <string name="id_kia">ID KIA </string>
+    <string name="id_ibu">ID Ibu </string>
+    <string name="id_anak">ID Anak </string>
+    <string name="nama_anak">Nama Anak </string>
+    <string name="tempat_lahir">Tempat Lahir</string>
+    <string name="tgl_lahir">Tanggal Lahir </string>
+    <string name="alamat">Alamat</string>
+    <string name="rt">RT</string>
+    <string name="rw">RW</string>
+    <string name="desa">Desa</string>
+    <string name="no_bpjs">No. BPJS</string>
+
+    <string name="langkah_2">Langkah 2\nIsi Data Ibu</string>
+    <string name="pekerjaan">Pekerjaan</string>
+
+    <string name="langkah_1">Langkah 1\nIsi Data Pemilik KIA</string>
+    <string name="nomor_peserta">Nomor Peserta</string>
+    <string name="nama_peserta">Nama Peserta</string>
+    <string name="pendidikan">Pendidikan Terakhir </string>
+    <string name="tgl_reg">Tanggal Registrasi </string>
+    <string name="jml_anak">Jumlah Anak</string>
+</resources>

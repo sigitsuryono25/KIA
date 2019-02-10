@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#4FA7A7</color>
+    <color name="colorPrimary">#89C4C4</color>
+    <color name="colorAccent">#BE3130</color>
+    <color name="redLighter">#FFCDD2</color>
+
+
+    <color name="circleProfil">#D32F2F</color>
+    <color name="circleBumil">#FFA000</color>
+    <color name="circleKesAnak">#00796B</color>
+    <color name="circleStatus_imunisasi">#455A64</color>
+    <color name="circleStatus_gizi">#E64A19</color>
+    <color name="circleLain_lain">#512DA8</color>
+
+    <color name="red">#E3E3E3</color>
+    <color name="main_menu">#689F38</color>
+</resources>

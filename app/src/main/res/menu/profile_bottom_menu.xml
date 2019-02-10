@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@mipmap/ic_profile"
+        android:title="Profil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/parents"
+        android:enabled="true"
+        android:icon="@mipmap/ic_people"
+        android:title="Orang Tua"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/anak"
+        android:enabled="true"
+        android:icon="@mipmap/ic_anak"
+        android:title="Anak"
+        app:showAsAction="ifRoom" />
+</menu>

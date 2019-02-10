@@ -1,0 +1,3 @@
+include ':app', ':sqliteassethelper-2.0.1', ':kiaclient', ':kialibrary'
+
+include ':newQuickAction'

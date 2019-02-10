@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_margin="10dp"
+    android:background="#FFF"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iconMenuItem"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/menuItemName"
+        android:layout_below="@+id/iconMenuItem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="Menu Item Textddddddddddddddddddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

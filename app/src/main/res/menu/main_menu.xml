@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/reload"
+        android:enabled="true"
+        android:icon="@mipmap/ic_reload"
+        android:title="Reload Data"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tentang"
+        android:enabled="true"
+        android:icon="@mipmap/ic_information"
+        android:title="Tentang Kami"
+        app:showAsAction="ifRoom" />
+</menu>

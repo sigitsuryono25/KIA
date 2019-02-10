@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaksin" />
+
+    <EditText
+        android:id="@+id/vaksin_tambahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukan nama vaksin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal pemberian imunisasi" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/getTanggalImunisasiVaksiLain"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:id="@+id/dateValueImunisasiVaksinLain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/getTanggalImunisasiVaksiLain" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#fff"
+        android:dividerHeight="5dp"></ListView>
+
+</LinearLayout>

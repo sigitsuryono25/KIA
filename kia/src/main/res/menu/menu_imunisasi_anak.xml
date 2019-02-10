@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/no_12_bulan"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="0-12 Bulan" />
+
+    <item
+        android:id="@+id/diatas_satu_tahun"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Diatas 1 Tahun" />
+
+
+    <item
+        android:id="@+id/bulan_imunisasi_anak_sekolah"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="BIAS" />
+
+
+    <item
+        android:id="@+id/imunisasi_tambahan"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Imun. Tambahn." />
+
+
+    <item
+        android:id="@+id/vaksin_lain"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Vaksin Lain" />
+
+
+
+</menu>

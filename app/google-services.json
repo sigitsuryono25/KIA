@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1049199314534",
+    "firebase_url": "https://kiafirebaseproject.firebaseio.com",
+    "project_id": "kiafirebaseproject",
+    "storage_bucket": "kiafirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049199314534:android:b5ca576b0e116701",
+        "android_client_info": {
+          "package_name": "asia.sayateam.kia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049199314534-m8klmhmpcdodkc8d3lrr8hojfuh1it98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "asia.sayateam.kia",
+            "certificate_hash": "96f0f3ff07ec4d1f7c082977d2bef52136888f01"
+          }
+        },
+        {
+          "client_id": "1049199314534-oktdqr419ta4i4rhu14kn635lho29gbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-c6y6a4Rz3rtAPizdXz4OBwjVpOEvMxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049199314534-oktdqr419ta4i4rhu14kn635lho29gbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

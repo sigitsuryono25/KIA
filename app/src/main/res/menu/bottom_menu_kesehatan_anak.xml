@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/detail_pemberian_vitamin"
+        android:enabled="true"
+        android:icon="@mipmap/ic_profile"
+        android:title="Detail"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/informasi_tambahan_kesehatan_anak"
+        android:enabled="true"
+        android:icon="@mipmap/ic_information"
+        android:title="Keterangan"
+        app:showAsAction="ifRoom" />
+</menu>

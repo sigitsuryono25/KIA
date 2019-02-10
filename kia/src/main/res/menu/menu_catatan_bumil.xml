@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bumil_last_record"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Record Sebelumnya" />
+    <item
+        android:id="@+id/bumil_input"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_note"
+        android:title="Input" />
+
+    <item
+        android:id="@+id/bumil_keterangan"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Keterangan" />
+
+</menu>

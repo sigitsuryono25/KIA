@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="asia.sayateam.kiaadmin">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBars">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:theme="@style/NoActionBars" />
+        <activity
+            android:name=".FragmentTambah.TambahAnakFragment"
+            android:noHistory="true" />
+        <activity
+            android:name=".SubMenuTambah"
+            android:noHistory="true" />
+
+        <activity
+            android:name=".EditDataInit"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditData.EditDataIbu"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditData.EditDataPemilik"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".FragmentTambah.TambahPemilikFragment"
+            android:noHistory="true" />
+        <activity
+            android:name=".EditData.EditAnakFragment"
+            android:noHistory="true" />
+        <activity
+            android:name=".FragmentTambah.TambahIbuFragment"
+            android:noHistory="true" />
+        <activity
+            android:name=".FragmentTambah.TambahHanyaAnakFragment"
+            android:noHistory="true" />
+        <activity
+            android:name=".SubMenuInput"
+            android:noHistory="false" />
+        <activity
+            android:name=".InputDataInit"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SubMenuImunisasi"
+            android:noHistory="false" />
+        <activity
+            android:name=".CatatanKesehatanIbuHamilActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".InputData.FragmentInputCatatanKesehatanAnak"
+            android:noHistory="true" />
+
+        <activity
+            android:name=".InputData.InputStatusGizi"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".InputData.InputImunisasiAnak0To12"
+            android:noHistory="true" />
+        <activity
+            android:name=".InputData.InputImunisasiAnakDiatas1Tahun"
+            android:noHistory="true" />
+        <activity
+            android:name=".InputData.NewImunisasiTambahan"
+            android:noHistory="true" />
+        <activity
+            android:name=".InputData.NewImunisasiVaksinLain"
+            android:noHistory="true" />
+        <activity
+            android:name=".InputData.InputBulanImunisasiAnakSekolah"
+            android:noHistory="true" />
+        <activity
+            android:name=".SubMenuEdit"
+            android:noHistory="true" />
+
+        <service android:name=".Services.NextIDIntentServices" />
+        <receiver android:name=".Services.IDBroadcast"></receiver>
+    </application>
+
+</manifest>

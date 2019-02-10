@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/imunisasi_tambahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Execute Imun Tambahan" />
+
+    <Button
+        android:id="@+id/tampilkan_imunisasi_tambahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Imun Tambahan" />
+
+
+    <Button
+        android:id="@+id/imunisasi_lain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Execute Imun Lain" />
+
+    <Button
+        android:id="@+id/tampilkan_imunisasi_lain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Imun Lain" />
+
+
+    <Button
+        android:id="@+id/jenis_imun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Execute Jenis Imunisasi" />
+
+    <Button
+        android:id="@+id/tampilkan_jenis_imun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Jenis Imun" />
+
+       <ListView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Result" />
+
+</LinearLayout>

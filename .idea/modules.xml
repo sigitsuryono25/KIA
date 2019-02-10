@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KIA.iml" filepath="$PROJECT_DIR$/KIA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kiaclient/kiaclient.iml" filepath="$PROJECT_DIR$/kiaclient/kiaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kialibrary/kialibrary.iml" filepath="$PROJECT_DIR$/kialibrary/kialibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newQuickAction/newQuickAction.iml" filepath="$PROJECT_DIR$/newQuickAction/newQuickAction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqliteassethelper-2.0.1/sqliteassethelper-2.0.1.iml" filepath="$PROJECT_DIR$/sqliteassethelper-2.0.1/sqliteassethelper-2.0.1.iml" />
+    </modules>
+  </component>
+</project>

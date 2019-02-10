@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="asia.sayateam.kiaclient">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/NoActionBarTheme">
+        <activity
+            android:name="asia.sayateam.kiaclient.NewLoginActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="asia.sayateam.kiaclient.MainMenuActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="asia.sayateam.kiaclient.CatatanKesehatanAnakActivity"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="asia.sayateam.kiaclient.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="asia.sayateam.kiaclient.InformasiActivity"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="asia.sayateam.kiaclient.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="asia.sayateam.kiaclient.KesehatanBuMilActivity"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="asia.sayateam.kiaclient.MainMenuActivity" />
+        </activity>
+        <activity android:name="asia.sayateam.kiaclient.SubMenuImunisasi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="asia.sayateam.kiaclient.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="asia.sayateam.kiaclient.Imunisasi.BulanImunisasiAnakSekolah"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="asia.sayateam.kiaclient.Imunisasi.NewImun012"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="asia.sayateam.kiaclient.Imunisasi.ImunisasiAnakDiatas1Tahun"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="asia.sayateam.kiaclient.Imunisasi.NewImunisasiTambahan"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="asia.sayateam.kiaclient.Imunisasi.NewImunisasiVaksinLain"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="asia.sayateam.kiaclient.Imunisasi.StatusGizi"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="asia.sayateam.kiaclient.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="asia.sayateam.kiaclient.TentangAplikasi"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="asia.sayateam.kiaclient.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="asia.sayateam.kiaclient.Lain"
+            android:noHistory="true"
+            android:theme="@style/NoActionBarTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="asia.sayateam.kiaclient.MainMenuActivity" />
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>
